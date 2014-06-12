@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*
+    MGD141 Web Design 1
+    Spring 2014
+    Portfolio Project
+
+    Mission Driven Media Content Strategy Guide
+    Author:		David Webb
+   	Filename:	lmsg_styles.css 
+*/
+
+.content_right {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.content_message {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+.body_text {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+}
+h1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+img {
+	vertical-align: bottom;
+}
+h2 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+}
+.contentMain {
+	margin-top: auto;
+	margin-right: 0;
+	margin-bottom: auto;
+	margin-left: 0;
+}
+.home_contentBox1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+.home_contentBox2 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+.home_contentBox3 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+.home_contentBox1, .home_contentBox2, .home_contentBox3 {
+	float : left;
+	padding : 2px;
+	border : transparent 10px;
+	margin-top : 2px;
+	height : 120px;
+	background-color : white;
+	margin-left : 10px;
+	width : 302px;
+	height : 330px;
+	text-align : center;
+}
+.home_contentBox1 img, .home_contentBox2 img, .home_contentBox3 img {
+	max-width : 100%;
+	max-height : 100%;
+	margin : auto;
+	display : block;
+}
+.home_contentBox1 h2 a:link, .home_contentBox2 h2 a:link, .home_contentBox3 h2 a:link {
+	color : #000000;
+	font-style : italic;
+	font-size : 18px;
+	padding : 0;
+}
+.home_contentBox1 p a:link, .home_contentBox2 p a:link, .home_contentBox3 p a:link {
+	color : #666666;
+	font-weight : bold;
+	font-style : italic;
+	text-decoration : none;
+	font-size : 12px;
+	padding : 0;
+}
+.form_table {
+	width: 309px;
+	text-align: left;
+	border: thin solid #5E2525;
+}
+.table_buttons {
+	font-weight: bold;
+	color: #9F1526;
+	font-size: 18px;
+}
+/* Form styles */
+.optinArea {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	width: 312px;
+}
+
+/* Field set styles */
+.optinArea fieldset {
+	display: inline-block;
+	width: 308;
+	height: 245px;
+	border: 3px solid rgb(160, 21, 40);
+	background-color: rgb(256,256,256);
+}
+.optinArea legend {
+	padding: 4px 0px;
+	width: 100%;
+	background-color: rgb(160, 21, 40);
+	color: white;
+	text-indent: 2px;
+	text-align: center;
+}
+
+/* Label styles */
+.optinArea label {
+	display: inline-block;
+	margin: 7px 4% 7px 5px;
+	width: 50px;
+	font-size: 0.9em;
+}
+
+/* Input control styles */
+.optinArea input {
+	display: inline-block;
+	margin: 7px 0px;
+	width: 180px;
+	font-size: 09.em;
+}
+
+/* Button styles */
+.optinArea input[type="image"] {
+	display: inline-block;
+	margin: 0px auto;
+	padding: 5px 0px 0px 30px;
+	width: 207px;
+	height:	73px;
+	border: 0px;
+}
+.policies {
+	position: absolute;
+	bottom: 20px;
+	left: 40%;
+	right: 40%;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	top: 20px;
+}
+.policy_body_text {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: small;
+}
+.policies a:link {
+	color: #FFFFFF;
+}
+.policies a:visited {
+	color: #666666;
+}
+.site-info {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	color: #FFFFFF;
+	top: 20px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
